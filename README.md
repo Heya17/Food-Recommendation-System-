@@ -1,21 +1,22 @@
-# Trip Planner MERN Application
+# Food Recommendation System (MERN Stack)
 
 ## Overview
 
-Trip Planner is a full-stack web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) designed to help users plan, organize, and manage their trips effortlessly. The app allows users to browse destinations, filter cuisines, save favorite places, and manage trip details in a user-friendly interface.
+This Food Recommendation System is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The app helps users discover personalized food recommendations based on their preferences, browse various cuisines, and explore dishes tailored to their tastes.
 
-This project also integrates **Firebase** for authentication and real-time database services, enhancing security and scalability.
+The project also integrates Firebase for authentication and real-time updates, making the app secure and interactive.
 
 ---
 
 ## Features
 
-- User authentication and authorization via Firebase Authentication  
-- Interactive trip planning dashboard  
-- Filter options for cuisines and destinations  
-- Data persistence with MongoDB and Mongoose  
-- Responsive UI built with React.js  
-- RESTful API backend powered by Node.js and Express.js  
+- User signup and login with Firebase Authentication  
+- Personalized food recommendations based on user preferences  
+- Browse and filter cuisines and dishes  
+- Save favorite dishes and build custom food plans  
+- Responsive UI with React.js  
+- RESTful API backend using Node.js and Express.js  
+- Data stored and managed with MongoDB and Mongoose  
 
 ---
 
@@ -30,10 +31,9 @@ This project also integrates **Firebase** for authentication and real-time datab
 
 ## Firebase Configuration
 
-To connect your app with Firebase services, you need to create a Firebase project and add the following configuration to your frontend code (preferably via environment variables):
+To connect with Firebase services, configure your Firebase keys in your frontend (via environment variables recommended):
 
 ```js
-// Example: firebaseConfig.js or environment variables
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY_HERE",
   authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
